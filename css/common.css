@@ -38,23 +38,22 @@
 
  .titulo{
  	font-size: 40px;
- }
-
- .titulo{
-
  	padding-top: 20px;
-
  }
+
 
  .menu-container a {
  	right: : 800px;
  }
 
 .boton1{
-  background-color: #2cd6c2;
+  	background-color: #2cd6c2;
 	color: whitesmoke;
 	text-align: center;
-	border: solid;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 580px;
+	
 }
 
 .boton2{
