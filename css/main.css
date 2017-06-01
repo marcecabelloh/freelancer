@@ -1,0 +1,214 @@
+/*
+ * Estilos de tu proyecto
+
+ /* Ingresa el CSS del proyecto en este archivo*/
+ @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+ * {
+ 	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+ 	box-sizing: border-box;
+ }
+
+ *:before,
+ *:after {
+ 	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+ 	box-sizing: border-box;
+ }
+
+ body {
+ 	/* Establece la fuente de Google aquí */
+ 	font-family: 'Raleway', sans-serif;
+ 	margin: 0 auto;
+ 	font-size: 16px;
+ 	line-height: 1.71429;
+ 	background-color: #fff;
+ }
+
+ img {
+ 	vertical-align: middle;
+ }
+
+ a {
+ 	color: whitesmoke;
+ 	text-decoration: none;
+ 	float: right;
+ }
+
+ a:hover {
+ 	color:#49E9FF ;
+ }
+
+ p{
+
+ 	margin-left: 100px;
+ 	margin-right: 100px;
+ }
+
+ header{
+ 	position: fixed;
+ 	background-color: #3f4c6b ;
+ 	width: 100%;
+ 	top: 0;
+ 	color: whitesmoke;
+ }
+
+
+ #home{
+ 	background-color: #2cd6c2;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	height: 554px;
+ 	text-align: center;
+ 	margin-top: 60px;
+ }
+
+ #home .container{
+ 	color: white;
+ 	padding: 70px;
+ }
+
+ #portfolio{
+ 	text-align: center;
+ 	padding: 70px 7px;
+ }
+ #about{
+ 	background-color: #2cd6c2;
+ 	color: whitesmoke;
+ 	margin-top: 70px;
+ }
+
+ #about h2{
+ 	text-align: center;
+ }
+
+ #contact{
+ 	text-align: center;
+ 	margin-top: 70px;
+
+ }
+
+ input[type]{
+ 	display:block;
+ 	border: none;
+ 	border-bottom: 2px solid #878c8d;/*darle color a la línea de mi input*/
+ 	margin-top: 20px;
+ 	margin-left: 600px;
+
+ }
+
+ input[type=text]:focus{
+ 	outline:0px;
+ }
+
+ textarea[type=text]{
+ 	display:block;
+ 	border: none;
+ 	border-bottom: 2px solid #878c8d;/*darle color a la línea de mi input*/
+ 	margin-top: 20px;
+ 	margin-left: 600px;
+ }
+
+ #info{
+ 	background-color: #757272;
+ 	color: whitesmoke;
+
+ }
+
+ footer{
+ 	text-align: center;
+ 	height: 70px;
+ 	background-color: #373b47;
+ 	color: white;
+ 	padding-top: 7px;
+ }
+
+ .imagen{
+ 	width: 100%;
+ }
+
+ a, a:hover {
+	text-decoration: none;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+	width: 40px;
+    height: 28px;
+	color: #000;
+	background-color: #FFF;
+	border: 1px solid #000;
+	padding-top: 12px;
+	border-radius: 22px;
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	-o-border-radius: 22px;
+}
+
+.socialbtns .fa:hover {
+	color: #FFF;
+	background-color: #000;
+	border: 1px solid #000;
+}
+
+
+
+ /*solo hasta acá llega mi código*/
+
+ .box-services:hover{
+ 	background-color: rgba(255,255,255,0.2);
+ }
+
+ /*Modal*/
+ #box-services-modal{
+ 	background-color: rgba(240,30,80,0.85);
+ 	width: 100%;
+ 	height: 100%;
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ }
+
+ #box-services-modal .modal-body{
+ 	width: 60%;
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	padding: 100px;
+ }
+
+ #box-services-modal .modal-body h5,
+ #box-services-modal .modal-body h6{
+ 	color: whitesmoke;
+ }
+ #box-services-modal .modal-body h5{
+ 	font-size: 2em;
+ }
+ #box-services-modal .modal-body h6{
+ 	font-size: 1em;
+ }
+
+ #box-services-modal .close{
+ 	position: absolute;
+ 	top: 20px;
+ 	right: 20px;
+ 	cursor: pointer;
+ }
+
+ #box-services-modal .close img{
+ 	width: 60px;
+ }
+
+ .hide{
+ 	display: none;
+ }
