@@ -26,7 +26,12 @@
 
  .logo{
  	float: left;
- 	margin-left: 50px;
+ 	padding-left: 50px;
+ 	display: inline-block;
+ }
+
+ .enlaces{
+ 	padding-left: 900px;
  }
 
  .menu-container{
@@ -36,35 +41,49 @@
  	margin-left: 50%;
  }
 
- .titulo{
+ .container .titulo{
  	font-size: 30px;
  	margin-top: -20px;
- 	margin-bottom: -30px;/*necesario para controlar que la linea y la estrella queden centradas y no tan abajo como ocurria en un principio*/
+ 	margin-bottom: -40px;/*necesario para controlar que la linea y la estrella queden centradas y no tan abajo como ocurria en un principio*/
  	
  }
 
+ #about .titulo {
+ 	padding-top: 30px;
+ }
+
+#about .titulo .linea{
+ 	padding-left:300px;
+ }
 
  .menu-container a {
  	right: : 800px;
  }
 
  .boton1{
- 	background-color: #2cd6c2;
+ 	background-color: #18BC9C;
  	color: whitesmoke;
- 	text-align: center;
  	margin-top: 30px;
  	margin-bottom: 30px;
  	margin-left: 580px;
+ 	margin-right: 1070px;
+ 	margin-top: 30px;;
+ 	border: none;
+ 	border-radius: 10px;
+ 	width: 150px;
+ 	height: 50px;
+ 	font-size: 15px;
+ 	box-shadow: 0 4px 2px -2px gray;
+
 
  }
 
  .boton2{
- 	background-color: #2cd6c2;
+ 	background-color: #18BC9C;
  	color: whitesmoke;
  	margin-right: 1070px;
  	margin-top: 30px;
- 	margin-bottom: 30px;
- 	color: white;
+ 	margin-bottom: 30px;	
  	border: none;
  	border-radius: 10px;
  	width: 100px;
@@ -82,25 +101,34 @@
  	font-size: 53px;
  }
 
+ /* linea, linea-1 y linea-2 permiten acomodar la linea con la estrella de
+ bajo de cada título*/
+
  .linea{
- height: 5px;
- width: 10%;
- margin-top: -20px;
- background-color: white;
- display: inline-block;
+ 	height: 5px;
+ 	width: 10%;
+ 	margin-top: -20px;
+ 	background-color: white;
+ 	display: inline-block;
  }
 
- .linea .estrella{
- 	margin-top: -60px
- }
 
  .linea-1{
- height: 5px;
- width: 10%;
- margin-top: -40px;
- display: inline-block;
- background-color: black;
- text-align: center;
+ 	height: 5px;
+ 	width: 10%;
+ 	margin-top: -40px;
+ 	display: inline-block;
+ 	background-color: black;
+ 	text-align: center;
+ }
+
+ .linea-2{
+ 	height: 5px;
+ 	width: 10%;
+ 	margin-top: 60px;
+ 	display: inline-block;
+ 	margin-left: 400px;
+ 	background-color: white;
  }
 
  .btn-home{
