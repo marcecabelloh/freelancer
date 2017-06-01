@@ -62,12 +62,17 @@
  	background-size: cover;
  	height: 554px;
  	text-align: center;
- 	margin-top: 60px;
+ 	margin-top: 69px;
  }
 
  #home .container{
  	color: white;
- 	padding: 70px;
+ 	padding: 55px;
+ }
+
+ #home .container h2{
+ 	color: white;
+ 	padding: 55px;
  }
 
  #portfolio{
@@ -92,10 +97,13 @@
 
  input[type]{
  	display:block;
- 	border: none;
- 	border-bottom: 2px solid #878c8d;/*darle color a la línea de mi input*/
+ 	border-radius: 10px;
+ 	width: 1000px;
+ 	height: 40px;
  	margin-top: 20px;
- 	margin-left: 600px;
+ 	margin-left: 60px;
+ 	border: none;
+	border-bottom: 2px solid #d0cecd;/*darle color a la línea de mi input*/
 
  }
 
@@ -105,11 +113,27 @@
 
  textarea[type=text]{
  	display:block;
- 	border: none;
- 	border-bottom: 2px solid #878c8d;/*darle color a la línea de mi input*/
+ 	border-radius: 10px;
+ 	width: 1000px;
+ 	height: 40px;
  	margin-top: 20px;
- 	margin-left: 600px;
+ 	margin-left: 60px;
+ 	border: none;
+	border-bottom: 2px solid #d0cecd;/*darle color a la línea de mi input*/
  }
+
+ /*cambio color placeholder*/
+
+input::-webkit-input-placeholder {
+  color: #d0cecd;
+  font-size: 15px; 
+}
+input:-moz-placeholder {
+  color: #d0cecd; 
+}
+input:-ms-input-placeholder { 
+  color: #d0cecd; 
+}
 
  #info{
  	background-color: #757272;
@@ -146,7 +170,10 @@
  	border: 1px solid #000;
  }
 
-
+#home .container h4{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
  /*solo hasta acá llega mi código*/
 
