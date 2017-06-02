@@ -1,7 +1,7 @@
 /*
  * Archivo principal de JS
  */
- 
+
 
  /* CREACION DE MODAL NO FUNCIONA*/
 
@@ -31,33 +31,23 @@
  })();
 
 
-/* intento validar campos del formulario*/
+ /* intento validar campos del formulario*/
 
- function mostrarData(){
+ 
+ document.getElementById("send").addEventListener("click", function usuario(){
+
 
  	var nombre = document.getElementById("name").value;
  	var email = document.getElementById("email").value;
- 	var telefono = document.getElementById("phone").value;
+ 	var telefono = document.getElementById("telefono").value;
  	var mensaje = document.getElementById("message").value;
 
 
- 	document.getElementById("send").addEventListener("click", function(push){
+ 	
 
- 		if (nombre === ""){
- 			alert("escriba su nombre")
+ 	if (nombre.length == "" || email.length == "" || telefono.length == "" || mensaje.length ==  ""){
+ 		alert("llene todos los campos");
+ 	}
+ })
+ 
 
- 		}else if (email === ""){
- 			alert("escriba su email")
-
-
- 		}else if (telefono === ""){
- 			alert("ingrese su teléfono")
-
-
- 		}else if(select ===  ""){
- 			alert("Deje un mensaje")
-
- 		}
- 	});
- }
-}
