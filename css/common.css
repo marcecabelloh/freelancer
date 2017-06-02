@@ -128,9 +128,13 @@
  	margin-top: 60px;
  	display: inline-block;
  	margin-left: 400px;
+ 	right: 200px;
  	background-color: white;
  }
 
+.linea-estrella{
+	text-align: center;
+}
  .btn-home{
  	background: #2Ecc71;
  	color: #fff;
@@ -183,4 +187,4 @@
  	padding-top: 63px;
  	text-align: center;
 
- }
+}
